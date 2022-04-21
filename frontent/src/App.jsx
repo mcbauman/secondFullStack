@@ -9,11 +9,11 @@ export default function App(){
     const langContext={lang,setLang}
     return(
         <LangContext.Provider value={langContext}>
-            <div>
-            <Header/>
-            <Main/>
-            <Footer/>
-        </div>
+            <div  id={lang}>
+                <Header/>
+                <Main/>
+                <Footer/>
+            </div>
         </LangContext.Provider>
     )
 }

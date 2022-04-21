@@ -10,7 +10,7 @@ export default function Header(){
             <select onChange={(e)=>setLang(e.target.value)}name="lang" id="lang">
                 <option value="en">🇬🇧</option>
                 <option value="de">🇩🇪</option>
-                <option value="en">🇰🇪</option>
+                <option value="ke">🇰🇪</option>
             </select>
         </header>
     )
