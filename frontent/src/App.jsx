@@ -1,13 +1,19 @@
 import Header from "./Header"
 import Main from "./Main"
 import Footer from "./Footer"
+import {useState} from "react"
+import {LangContext} from "./context/langContext.js"
 
 export default function App(){
+    const [lang,setLang]=useState("en")
+    const langContext={lang,setLang}
     return(
-        <div>
+        <LangContext.Provider value={langContext}>
+            <div>
             <Header/>
             <Main/>
             <Footer/>
         </div>
+        </LangContext.Provider>
     )
 }
