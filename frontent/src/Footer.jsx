@@ -3,7 +3,7 @@ import trans from "./components/lang"
 import {LangContext} from "./context/langContext.js"
 
 export default function Footer(){
-    const {lang,setLang}=useContext(LangContext)
+    const {lang}=useContext(LangContext)
     return(
         <footer>
             <h1>{trans[lang].footer}</h1>

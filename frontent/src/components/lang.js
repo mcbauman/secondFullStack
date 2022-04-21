@@ -2,11 +2,13 @@ const trans={
     de:{
         title:"Überschrift",
         changeTheme:"Design wählen",
+        main:"Hauptteil",
         footer:"Fußnote"
     },
     en:{
         title:"Title",
         changeTheme:"change theme",
+        main:"mainpart",
         footer:"footer"
     }
 }
