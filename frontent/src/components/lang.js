@@ -3,19 +3,31 @@ const trans={
         title:"Überschrift",
         changeTheme:"Design wählen",
         main:"Hauptteil",
-        footer:"Fußnote"
+        footer:"Fußnote",
+        page1:"Seite 1",
+        page2:"Seite 2",
+        logIn:"log in",
+        signIn:"Profil erstellen"
     },
     en:{
-        title:"Title",
+        title:"title",
         changeTheme:"change theme",
         main:"mainpart",
-        footer:"footer"
+        footer:"footer",
+        page1:"Page 1",
+        page2:"Page 2",
+        logIn:"log in",
+        signIn:"sign in"
     },
     ke:{
-        title:"Title",
+        title:"title",
         changeTheme:"change theme",
         main:"mainpart",
-        footer:"footer"
+        footer:"footer",
+        page1:"Page 1",
+        page2:"Page 2",
+        logIn:"log in",
+        signIn:"sign in"
     }
 }
 export default trans

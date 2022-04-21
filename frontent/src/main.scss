@@ -10,10 +10,15 @@ body{
     padding:0;
     header{
         display: flex;
+        justify-content: space-around;
+        align-items: center;
         height: 10vh;
         select{
             height: 85%;
             font-size: 2.5rem;
+            background-color: black;
+            color: white;
+            border-radius: 10%;
         }
     }
     main{
