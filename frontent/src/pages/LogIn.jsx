@@ -1,10 +1,20 @@
 import trans from "../components/lang"
 import {LangContext} from "../context/langContext.js"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 
 export default function LogIn(){
     const {lang}=useContext(LangContext)
+    
+    function submitFunction(e){
+        e.preventDefault()
+        console.log("Submit function executed");
+    }
     return(
-        <h1>{trans[lang].logIn}</h1>
+        <form action="" onSubmit={submitFunction}>
+            <h1>{trans[lang].logIn}</h1>
+            <input type="text" name="username" id="username" placeholder={trans[lang].username} />
+            <input type="password" name="password" id="password" placeholder={trans[lang].password} />
+            <button type="submit">{trans[lang].submit}</button>
+        </form>
     )
 }

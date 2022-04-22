@@ -8,12 +8,14 @@ export default function App(){
     const [lang,setLang]=useState("en")
     const langContext={lang,setLang}
     return(
-        <LangContext.Provider value={langContext}>
+        <ContextProvider value={langContext}>
+        {/* <LangContext.Provider value={langContext}> */}
             <div  id={lang}>
                 <Header/>
                 <Main/>
                 <Footer/>
             </div>
-        </LangContext.Provider>
+        {/* </LangContext.Provider> */}
+        </ContextProvider>
     )
 }

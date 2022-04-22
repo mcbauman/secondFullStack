@@ -15,7 +15,8 @@ const trans={
         lastname:"Nachname",
         username:"Benutzername",
         password:"Passwort",
-        dateob:"Geburtsdatum"
+        dateob:"Geburtsdatum",
+        submit:"Nutzer speichern"
     },
     en:{
         title:"title",
@@ -33,7 +34,8 @@ const trans={
         lastname:"last Name",
         username:"username",
         password:"password",
-        dateob:"date of birth"
+        dateob:"date of birth",
+        submit:"save user"
     },
     ke:{
         title:"title",
@@ -51,7 +53,8 @@ const trans={
         lastname:"last Name",
         username:"username",
         password:"password",
-        dateob:"date of birth"
+        dateob:"date of birth",
+        submit:"save user"
     }
 }
 export default trans
