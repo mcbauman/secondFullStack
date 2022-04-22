@@ -1,15 +1,22 @@
 ###GET
-GET http://localhost:4040
-###
-POST http://localhost:4040
+Post http://localhost:4040
 Content-Type: application/json
 
 {
-"gender":"male",
-"firstname":"Matthias",
-"lastname":"Baumann",
-"email":"mcbaumann@online.de",
-"username":"mcb",
-"password":"Cynthia",
-"dateOfBirth":"1984-04-18"
+"user":"cyn",
+"password":"Matthias"
+}
+
+###
+POST http://localhost:4040/users
+Content-Type: application/json
+
+{
+"gender":"female",
+"firstname":"Cynthia",
+"lastname":"Jepleting",
+"email":"cynthia@online.de",
+"user":"cyn",
+"password":"Matthias",
+"dateOfBirth":"1998-11-22"
 }

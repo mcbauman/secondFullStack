@@ -16,7 +16,9 @@ const trans={
         username:"Benutzername",
         password:"Passwort",
         dateob:"Geburtsdatum",
-        submit:"Nutzer speichern"
+        submit:"Nutzer speichern",
+        loginAlert:"Bitte erste alle Daten ausfüllen",
+        wrongLogIn:"falsche Einlog-Daten"
     },
     en:{
         title:"title",
@@ -35,7 +37,9 @@ const trans={
         username:"username",
         password:"password",
         dateob:"date of birth",
-        submit:"save user"
+        submit:"save user",
+        loginAlert:"Please fill out all required data",
+        wrongLogIn:"wrong Login Date"
     },
     ke:{
         title:"title",
@@ -54,7 +58,9 @@ const trans={
         username:"username",
         password:"password",
         dateob:"date of birth",
-        submit:"save user"
+        submit:"save user",
+        loginAlert:"Please fill out all required data",
+        wrongLogIn:"wrong Login Date"
     }
 }
 export default trans

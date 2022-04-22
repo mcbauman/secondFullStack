@@ -16,12 +16,17 @@ function connect(){
 }
 connect()
 
-app.get("/",async (req,res)=>{
-    const usr=await User.find()
-    res.send(usr)
+app.post("/",async (req,res)=>{
+    // const usr=await User.find()
+    try{
+        const response=await User.find({name:req.body.user})
+        res.send(response)
+    }catch(err){
+        res.status(400).send({error:err.message})
+    }
 })
 
-app.post("/",async (req,res)=>{
+app.post("/users",async (req,res)=>{
     const usr=new User(req.body)
     try{
         await usr.save()

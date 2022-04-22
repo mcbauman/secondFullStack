@@ -7,7 +7,7 @@ const userSchema=new Schema({
     firstname:{type:String,required:true},
     lastname:{type:String,required:true},
     email:{type:mongoose.SchemaTypes.Email,required:true},
-    username:{type:String,required:true},
+    user:{type:String,required:true,unique:true},
     password:{type:String,required:true},
     dateOfBirth:{type:Date,required:true},
     street:{type:String},
