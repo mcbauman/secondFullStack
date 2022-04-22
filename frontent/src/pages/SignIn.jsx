@@ -5,7 +5,6 @@ import { useContext } from "react"
 export default function SignIn(){
     const {lang}=useContext(LangContext)
     return(
-        
         <form action="">
             <h1>{trans[lang].signIn}</h1>
             <select name="gender" id="gender">
