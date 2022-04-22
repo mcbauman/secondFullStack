@@ -1,10 +1,10 @@
 import trans from "../components/lang"
-import {LangContext} from "../context/langContext.js"
+import {Context} from "../context/langContext.js"
 import { useContext, useState } from "react"
 
 export default function LogIn(){
-    const {lang}=useContext(LangContext)
-    
+    const {lang}=useContext(Context)
+
     function submitFunction(e){
         e.preventDefault()
         console.log("Submit function executed");

@@ -1,10 +1,11 @@
 import { useContext } from "react"
 import { NavLink } from "react-router-dom"
 import trans from "./components/lang"
-import {LangContext} from "./context/langContext.js"
+import {Context} from "./context/langContext.js"
 
 export default function Header(){
-    const {lang,setLang}=useContext(LangContext)
+
+    const {lang,setLang}=useContext(Context)
     return(
         <header>
             <h1>{trans[lang].title}</h1>

@@ -1,9 +1,9 @@
 import { useContext } from "react"
 import trans from "./components/lang"
-import {LangContext} from "./context/langContext.js"
+import {Context} from "./context/langContext.js"
 
 export default function Footer(){
-    const {lang}=useContext(LangContext)
+    const {lang}=useContext(Context)
     return(
         <footer>
             <h1>{trans[lang].footer}</h1>

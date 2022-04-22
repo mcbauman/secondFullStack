@@ -1,9 +1,9 @@
 import trans from "../components/lang"
-import {LangContext} from "../context/langContext.js"
+import {Context} from "../context/langContext.js"
 import { useContext } from "react"
 
 export default function Page1(){
-    const {lang}=useContext(LangContext)
+    const {lang}=useContext(Context)
     return(
         <div>
             <h1>{trans[lang].page1}</h1>
