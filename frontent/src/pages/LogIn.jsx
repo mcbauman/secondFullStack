@@ -4,7 +4,7 @@ import { useContext, useState } from "react"
 // import dotenv from "dotenv"
 
 export default function LogIn(){
-    const {lang,user,setUser,password,setPassword,loggedIn,setLoggedIn}=useContext(Context)
+    const {lang,setLang,user,setUser,password,setPassword,loggedIn,setLoggedIn}=useContext(Context)
     
     // dotenv.config()
 
@@ -23,12 +23,12 @@ export default function LogIn(){
             fetch("http://localhost:4040",config)
                 .then(response=>response.json())
                 .then(result=>{
-                    console.log("BackendUser",result[0].user)
-                    console.log("BackEndPassword",result[0].password)
                     answer=result[0]
-                    console.log(answer);
+                    console.log("result",result);
+                    console.log("answer",answer);
                     if(answer.user==user&&answer.password==password){
                         setLoggedIn(true)
+                        setLang(answer.theme)
                     }else{
                         alert(trans[lang].wrongLogIn)  
                     }

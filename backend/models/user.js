@@ -15,8 +15,8 @@ const userSchema=new Schema({
     postCode:{type:Number},
     phoneNumber:{type:String},
     country:{type:String},
-    language:{type:String, enum:["deutsch","english"], default:"english"},
-    theme:{type:String,enum:["deutsch", "kenyan", "british"], default:"deutsch"}
+    language:{type:String, enum:["de","en","ke"], default:"de"},
+    theme:{type:String,enum:["de", "ke", "en"], default:"de"}
 })
 
 const User=model("user",userSchema)

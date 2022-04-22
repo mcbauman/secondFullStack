@@ -19,7 +19,7 @@ connect()
 app.post("/",async (req,res)=>{
     // const usr=await User.find()
     try{
-        const response=await User.find({name:req.body.user})
+        const response=await User.find({user:req.body.user})
         res.send(response)
     }catch(err){
         res.status(400).send({error:err.message})
