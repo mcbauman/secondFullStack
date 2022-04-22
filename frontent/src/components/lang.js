@@ -7,7 +7,15 @@ const trans={
         page1:"Seite 1",
         page2:"Seite 2",
         logIn:"log in",
-        signIn:"Profil erstellen"
+        signIn:"Profil erstellen",
+        gender:"Anrede",
+        male:"Herr",
+        female:"Frau",
+        firstname:"Vorname",
+        lastname:"Nachname",
+        username:"Benutzername",
+        password:"Passwort",
+        dateob:"Geburtsdatum"
     },
     en:{
         title:"title",
@@ -17,7 +25,15 @@ const trans={
         page1:"Page 1",
         page2:"Page 2",
         logIn:"log in",
-        signIn:"sign in"
+        signIn:"sign in",
+        gender:"gender",
+        male:"male",
+        female:"female",
+        firstname:"first Name",
+        lastname:"last Name",
+        username:"username",
+        password:"password",
+        dateob:"date of birth"
     },
     ke:{
         title:"title",
@@ -27,7 +43,15 @@ const trans={
         page1:"Page 1",
         page2:"Page 2",
         logIn:"log in",
-        signIn:"sign in"
+        signIn:"sign in",
+        gender:"gender",
+        male:"male",
+        female:"female",
+        firstname:"first Name",
+        lastname:"last Name",
+        username:"username",
+        password:"password",
+        dateob:"date of birth"
     }
 }
 export default trans
