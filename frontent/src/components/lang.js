@@ -19,7 +19,9 @@ const trans={
         submit:"Nutzer speichern",
         loginAlert:"Bitte erste alle Daten ausfüllen!",
         wrongLogIn:"falsche Einlog-Daten",
-        signUpAlert:"Bitte erst alle Felder ausfüllen!"
+        signUpAlert:"Bitte erst alle Felder ausfüllen!",
+        greeting:"Hallo ",
+        welcome:", schön, dass Du wieder da bist!"
     },
     en:{
         title:"title",
@@ -41,7 +43,9 @@ const trans={
         submit:"save user",
         loginAlert:"Please fill out all required data!",
         wrongLogIn:"wrong Login Date",
-        signUpAlert:"Please fill out the whole form!"
+        signUpAlert:"Please fill out the whole form!",
+        greeting:"Hello ",
+        welcome:", nice to see you again!"
     },
     ke:{
         title:"title",
@@ -63,7 +67,9 @@ const trans={
         submit:"save user",
         loginAlert:"Please fill out all required data!",
         wrongLogIn:"wrong Login Date",
-        signUpAlert:"Please fill out the whole form!"
+        signUpAlert:"Please fill out the whole form!",
+        greeting:"Hello ",
+        welcome:", nice to see you again!"
     }
 }
 export default trans

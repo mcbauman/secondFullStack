@@ -29,6 +29,7 @@ export default function LogIn(){
                     if(answer.user==user&&answer.password==password){
                         setLoggedIn(true)
                         setLang(answer.theme)
+                        alert(trans[lang].greeting+answer.firstname+trans[lang].welcome)
                     }else{
                         alert(trans[lang].wrongLogIn)  
                     }
