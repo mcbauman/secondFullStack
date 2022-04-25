@@ -37,5 +37,5 @@ jobs:
           branch-id: ${{ steps.project.outputs.branch-id }}
           service-host: api-eu.ionos.space
           api-key: ${{ secrets.IONOS_API_KEY }}
-          dist-folder: ./build
+          dist-folder: ./frontend
           runtime-placeholder-files: ${{ steps.template.outputs.runtime-placeholder-files }}
